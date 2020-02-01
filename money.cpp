@@ -22,8 +22,26 @@ string Money::toCurrency(double amount) {
 // convert currency to float
 // read currency values from stdin and compute value
 // return results
-string Money::processChange() {
+string Money::processChange() { 
+ int main()
+ {
+  float Money.h ;
+  int change,quarters, dimes, nickels, pennies; 
+  cout <<"Enter the amount of money: ";
+   cin >> Money.h;
+   change =Money.h * 100;
+  quarters = change / 25;
+  change = change % 25;
+  dimes = change / 10;
+  change = change % 10;
+   nickels = change / 5;
+  pennies = change % 5;
+   cout << "\nQuarters: " << quarters << endl;
+  cout << " Dimes: " << dimes << endl;
+   cout << " Nickels: " << nickels << endl;
     return "";
+  cout <<" Pennies: " << pennies << endl;
+    system("Pause");
 }
 
 // read from stdin and process float command
